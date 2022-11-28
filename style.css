@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fe951c;
+  font-family: Arial;
+}
+
+div {
+  background: #eee;
+  width: 700px;
+  padding: 40px 100px;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+.input-label {
+  margin-bottom: 0;
+}
+
+button {
+  width: 100%;
+  padding: 5px 0;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  background: #0d1973;
+  color: white;
+  cursor: pointer;
+}
+
+span,
+.required {
+  color: red;
+}
+
+a {
+  color: #0d1973;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.fake-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#sign-in-div {
+  display: none;
+}
