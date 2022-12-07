@@ -36,7 +36,15 @@ function signUpHandler() {
 signInBtn.addEventListener("click", signInHandler);
 
 function signInHandler() {
-  console.log("Sign In Btn Clicked");
+  let username = document.getElementById("usernameInLogin").value;
+  let password = document.getElementById("passwordInLogin").value;
+  for (i = 0; i < users.length; i++) {
+    if (users[i].username === username && users[i].password === password) {
+      alert("Login Complete");
+    } else {
+      alert("Login Failed");
+    }
+  }
 }
 
 // HELPER FUNCTIONS
